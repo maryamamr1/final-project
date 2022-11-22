@@ -27,3 +27,5 @@ public class DeathScript : MonoBehaviour
         }
     }
 }
+
+//Followed tutorial for this code using https://www.youtube.com/watch?v=nPigL-dIqgE&t=1949s&ab_channel=bblakeyyy

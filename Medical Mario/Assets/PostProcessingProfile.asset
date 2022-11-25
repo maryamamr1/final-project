@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
   m_Name: Grain
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
@@ -50,7 +50,7 @@ MonoBehaviour:
     defaultState: 1
   intensity:
     overrideState: 1
-    value: 0.103
+    value: 0.126
   fastMode:
     overrideState: 1
     value: 0
@@ -81,10 +81,10 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.275
+    value: 0.08
   smoothness:
     overrideState: 1
-    value: 0.2
+    value: 1
   roundness:
     overrideState: 1
     value: 1
@@ -116,7 +116,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 4.96
+    value: 1.38
   threshold:
     overrideState: 1
     value: 1
@@ -131,7 +131,7 @@ MonoBehaviour:
     value: 7
   anamorphicRatio:
     overrideState: 1
-    value: 0
+    value: -0.1
   color:
     overrideState: 1
     value: {r: 1, g: 1, b: 1, a: 1}
@@ -267,13 +267,13 @@ MonoBehaviour:
     value: 100
   lift:
     overrideState: 1
-    value: {x: 0.89032954, y: 0.9170373, z: 1, w: 0}
+    value: {x: 0.92634404, y: 0.94404846, z: 1, w: 0}
   gamma:
     overrideState: 1
     value: {x: 1, y: 1, z: 1, w: 0}
   gain:
     overrideState: 1
-    value: {x: 1, y: 0.82694805, z: 0.7485211, w: 0}
+    value: {x: 0.9069939, y: 0.8874176, z: 1, w: -0.21653548}
   masterCurve:
     overrideState: 1
     value:

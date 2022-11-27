@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PauseMenu : MonoBehaviour
 {
+    [SerializeField] private AudioSource escSoundEffect;
+    
     public GameObject pauseMenu;
     // Start is called before the first frame update
     void Start()
@@ -16,6 +20,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            escSoundEffect.Play();
             if(!pauseMenu.activeSelf)
             {
                 Time.timeScale = 0f;
@@ -40,6 +45,11 @@ public class PauseMenu : MonoBehaviour
         pauseMenu.SetActive(false);
         Cursor.visible = false;
     }
+
+    public void mainmenu()
+    {
+        SceneManager.LoadScene("mainmenu");
+    }
 }
 
-//Followed tutorial for this code using https://www.youtube.com/watch?v=nPigL-dIqgE&t=1949s&ab_channel=bblakeyyy
+//Followed tutorial for parts of this code using https://www.youtube.com/watch?v=nPigL-dIqgE&t=1949s&ab_channel=bblakeyyy

@@ -287,7 +287,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.38430044, g: 0.5826971, b: 0.6415094, a: 0}
+  m_BackGroundColor: {r: 0.50980395, g: 0.654902, b: 0.7372549, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -639,6 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fceac6d27f970b498c88948a2b7c852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  escSoundEffect: {fileID: 0}
   pauseMenu: {fileID: 1637080913}
 --- !u!114 &1195893229
 MonoBehaviour:
@@ -1284,6 +1285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   jump: 650
+  jumpSoundEffect: {fileID: 0}
 --- !u!1 &2085195402
 GameObject:
   m_ObjectHideFlags: 0

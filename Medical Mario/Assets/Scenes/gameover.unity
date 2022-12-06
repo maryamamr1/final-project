@@ -746,9 +746,10 @@ MonoBehaviour:
   - ...
   - You evil animal...
   - Everyone died because of you....
-  - How do you even sleep at night?!
+  - How do you sleep at night?!
   - I can't even look at you
   - If it were up to me, I wouldn't even let you try again
+  - Let alone live on
   textSpeed: 0.02
 --- !u!114 &1104647988
 MonoBehaviour:

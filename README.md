@@ -8,9 +8,7 @@ Thia was the first time any of us have ever coded in C# before, or used Unity in
 
 While coding, we encountered a lot of problems. We used Youtube tutorials to learn how to write code for certain behaviors and functions. But there were certain things we wanted to do that a tutorial couldn't completely explain. We adapted by observing the code and how it works from tutorials, then reforming and reapplying them to new objects. For example, we wanted to have a script that could quickly change from one scene to the next. We learned how to load in scenes by understanding what the code from the tutorials actually meant. That way we were easily able to code some things on our own. 
 
-We had no idea how difficult it could be to make a game. Turns out it's extremely difficult. As a result we were unable to fulfill our original vision. It was extremely time consuming to make just a few pixel assets, so we opted for free assets off the Unity store. We couldn't translate the ideas in our head to the game, so we would come up with new and more realistic ideas as we got further along with learning how Unity works as beginners.
-
-
+We had no idea how difficult it could be to make a game. Turns out it's extremely difficult. As a result we were unable to fulfill our original vision. Game development combines coding with many different art forms. From music, to drawing, to animation, to storytelling. There was too much to go into it and we could not make everything from scratch. It was extremely time consuming to make just a few pixel assets, so we opted for free assets off the Unity store. That way we were able to focus on what mattered most for this project, the coding aspect. We couldn't translate the ideas in our head to the game, so we would come up with new and more realistic ideas as we got further along with learning how Unity works as beginners.
 
 
 ASSETS USED: 
